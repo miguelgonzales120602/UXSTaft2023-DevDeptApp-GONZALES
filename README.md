@@ -5,3 +5,6 @@
  - Clicking each eye causes winking (no other functionality besides winking)
  - Clicking nose shows pop up of menu showing Shiba Inu Picture as well as Geek-Joke
  - Clicking on the mouth, causes all eyes to open (if there are closed)
+
+Considerations:
+- Shibe Online API does not work when Hosted in Vercel, but works when ran locally.

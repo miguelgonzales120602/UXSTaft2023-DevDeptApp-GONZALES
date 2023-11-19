@@ -1,0 +1,112 @@
+.homepage-div{
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        background-color: #EDBF85;
+        position: fixed;
+}
+
+.eyes{
+        height: 30%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.eyeballs{
+        min-height: 60%;
+        min-width: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40%
+}
+
+.eye{
+        min-width: 35%;
+        min-height: 100%;
+        background-color: #000000;
+
+        border-radius: 50%;
+        transition: min-height 0.3s linear;
+}
+
+.eyebrows{
+        min-height: 40%;
+        min-width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 75%
+}
+
+.brow{
+        min-height: 50%;
+        min-width: 10%;
+        border-radius: 100%;
+        background-color: #FFFFFF;
+}
+
+.snout{
+        height: 40%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15%;
+
+        background-color: #FFDCB2;
+        border-radius: 70%;
+        border-bottom: 1vh solid #000000;
+}
+
+.nose{
+        height: 50%;
+        width: 15%;
+        background-color: #000000;
+
+        border-radius: 50%;
+}
+
+.blush{
+        height: 50%;
+        width: 15%;
+
+        border-radius: 50%;
+        background-color: #E06C9F;
+}
+
+.mouth{
+        height: 30%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.lips{
+        height: 100%;
+        width: 50%;
+        background-color: #FFDCB2;
+        border-radius: 40%;
+
+        border-top: 1vh solid #000000;
+        border-bottom: 1vh solid #000000;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+

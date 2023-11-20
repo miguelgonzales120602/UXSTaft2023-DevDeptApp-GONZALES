@@ -7,4 +7,5 @@
  - Clicking on the mouth, causes all eyes to open (if there are closed)
 
 Considerations:
+- Shibe-Online does not work for Mozilla Firefox Developer Edition, but works for Google Chrome
 - Some rendering of jokes can lead to errors due to toString method not working for some of the contents of the Geek-Jokes API.

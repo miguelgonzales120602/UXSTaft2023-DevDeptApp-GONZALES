@@ -7,4 +7,4 @@
  - Clicking on the mouth, causes all eyes to open (if there are closed)
 
 Considerations:
-- Shibe Online API does not work when Hosted in Vercel, but works when ran locally.
+- Some rendering of jokes can lead to errors due to toString method not working for some of the contents of the Geek-Jokes API.
